@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="shortcut icon" type="image/jpg" href="./img-fav/netflix.png"/>
+   <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <img src="./img/netflix.jpg" alt="" class="netflix-logo">
+    </header>
+    <div id="container">
+        <div id="login">
+            <h1 class="entrar">Entrar</h1>
+            <input type="email" name="username" id="login-txt" class="login" placeholder="Email ou número de telefone">
+            <div id="res"></div>
+            <input type="password" name="password" id="senha" class="senha" placeholder="Senha">
+            <div id="res1"></div>
+            <button onclick="entrar(this)" value="/perfil.html" id="btn-entrar" class="btn-entrar">Entrar</button >
+            <p class="or">OR</p>
+            <button onclick="criarConta()" class="criarConta">Criar Conta</button>
+             
+            <div class="esqueceu-senha">
+                <a href="./Esqueceu-Senha.html" onclick="EsqueceuSenha()" class="link-reset-senha">Esqueceu a senha?</a>
+            </div>
+            
+            <div id="checkbox">
+                <input type="checkbox" class="checkbox">
+                <p class="checkbox-txt">Lembre-se de mim</p>
+            </div>
+
+            <div class="cadastrar">
+                <a href="" class="link-cadastrar-conta">Novo por aqui?<b> Assine agora.</b></a>
+            </div>
+
+            <div>
+
+            </div>
+        </div>
+    </div>
+    <script src="main.js">
+       
+    </script>
+</body>
+</html>

@@ -1,0 +1,138 @@
+body{
+    background-color: black;
+          }
+    
+          #perfil {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 30px;
+                
+            }
+    
+            #perfil1, #img-01{
+                width: 150px;
+                height: 150px;
+                
+                margin: 5px;
+                
+            }
+    
+            #img-01:hover{
+                border: white 2px solid;
+                width: 145px;
+                height: 145px;
+                position: relative;
+                margin: 5px;
+                
+            }
+    
+            #perfil2,  #img-02{
+                width: 150px;
+                height: 150px;
+                position: relative;
+                margin: 5px;
+            }
+      
+            #img-02:hover{
+                border: white 2px solid;
+                width: 145px;
+                height: 145px;
+                position: relative;
+                margin: 5px;
+            }
+    
+    
+            #perfil3,  #img-03{
+                width: 150px;
+                height: 150px;
+                
+                margin: 5px;
+            }
+    
+            #img-03:hover{
+                border: white 2px solid;
+                width: 145px;
+                height: 145px;
+                position: relative;
+                margin: 5px;
+            }
+    
+            #perfil4,  #img-04{
+                width: 150px;
+                height: 150px;
+                
+                margin: 5px;
+            } 
+    
+            #img-04:hover{
+                border: white 2px solid;
+                width: 148px;
+                height: 148px;
+                position: relative;
+                margin: 5px;
+            }
+    
+            .gerenciar{
+     display: flex;
+     justify-content: center;
+     margin-top: 200px;
+     color: white;
+            }
+    
+            .nome-1{
+                color: white;
+                text-align: center;
+                font-size: 20px;
+                position: relative;
+            }
+    
+            .nome-2{
+                color: white;
+                text-align: center;
+                font-size: 20px;
+            }
+    
+            .nome-3{
+                color: white;
+                text-align: center;
+                font-size: 20px;
+            }
+    
+            .nome-4{
+                color: white;
+                text-align: center;
+                font-size: 20px;
+            }
+    
+            .ger-perfil{
+                background-color: black;
+                color:  rgba(255, 255, 255, 0.521);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                margin:0 auto ; 
+                margin-top: 150px;
+                height: 40px;
+                border: 2px rgba(255, 255, 255, 0.521) solid;
+                width: 300px;
+                font-family: 'Courier New', Courier, monospace;
+                font-size: 25px;
+            }
+    
+            .ger-perfil:hover{
+                background-color: black;
+                color:  rgb(255, 255, 255);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                margin:0 auto ; 
+                margin-top: 150px;
+                height: 40px;
+                border: 2px rgb(255, 255, 255) solid;
+                width: 300px;
+                font-family: 'Courier New', Courier, monospace;
+                font-size: 25px;
+            }

@@ -1,0 +1,217 @@
+body{
+    background-image: url("./img/fala-universidades-netflix-3.jpg");
+     }
+
+     body::before{
+         opacity: 60%;
+     }
+      #container{
+         width: 400px;
+         height: 600px;
+         background-color: rgba(0, 0, 0, 0.829);
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         margin: 0 auto;
+         position: relative;
+         bottom: 20px;
+         border-radius: 5px;
+     }
+
+     #login {
+         display: flex;
+         flex-direction: column;
+         margin: 0 auto;
+         max-width: 300px; /* Adiciona uma largura máxima ao contêiner, ajuste conforme necessário */
+         position: relative;
+         
+     }
+
+     h1{
+        position: relative;
+        top: 100px;
+        
+     }
+     
+
+     .login{
+         width: 300px; /* Faz com que os campos ocupem 100% da largura do contêiner */
+         height:50px;
+         box-sizing: border-box; /* Inclui a largura do padding e da borda no cálculo total da largura */
+         border-radius: 3px;
+         background-color: black;
+         color: white;
+         font-size: 17px;
+         position: relative;
+         margin-top: 100px;
+     }
+
+     .login:focus{
+         width: 300px; /* Faz com que os campos ocupem 100% da largura do contêiner */
+         height:50px;
+         box-sizing: border-box; /* Inclui a largura do padding e da borda no cálculo total da largura */
+         border-radius: 3px;
+         background-color: black;
+         color: white;
+         font-size: 17px;
+         outline: 0;
+         border-bottom: 3px red solid;
+     }
+     .senha{
+         width: 300px; /* Faz com que os campos ocupem 100% da largura do contêiner */
+         height:50px;
+         box-sizing: border-box; /* Inclui a largura do padding e da borda no cálculo total da largura */
+         margin-bottom: 30px; /* Adiciona algum espaçamento entre os campos */
+         margin-top: 25px;
+         border-radius: 3px;
+         background-color: black;
+         color: white;
+         font-size: 17px;
+         outline: 0;
+         position: relative;
+         
+        
+     }
+
+     .senha:focus{
+         width: 300px; /* Faz com que os campos ocupem 100% da largura do contêiner */
+         height:50px;
+         box-sizing: border-box; /* Inclui a largura do padding e da borda no cálculo total da largura */
+         margin-bottom: 30px; /* Adiciona algum espaçamento entre os campos */
+         margin-top: 25px;
+         border-radius: 7px;
+         background-color: black;
+         color: white;
+         font-size: 17px;
+         border-bottom: 3px solid #ff6550;
+     }
+     
+     .btn-entrar {
+         width: 300px; /* Faz com que os campos ocupem 100% da largura do contêiner */
+         height:50px;
+         box-sizing: border-box; /* Inclui a largura do padding e da borda no cálculo total da largura */
+         margin-bottom: 110px; /* Adiciona algum espaçamento entre os campos */
+         border-radius: 7px;
+         background-color: red;
+         color: white;
+     }
+
+     .btn-entrar:hover {
+        width: 300px; /* Faz com que os campos ocupem 100% da largura do contêiner */
+        height:50px;
+        box-sizing: border-box; /* Inclui a largura do padding e da borda no cálculo total da largura */
+        margin-bottom: 110px; /* Adiciona algum espaçamento entre os campos */
+        border-radius: 7px;
+        background-color: rgb(165, 10, 10);
+        color: white;
+    }
+
+     h1{
+         color: white;
+         font-family: sans-serif;
+         font-size: 27px;
+     }
+
+     #checkbox{
+        margin-top: 30px;
+     }
+     .checkbox-txt{
+         color: white;
+        display: flex;
+        justify-content: center;
+        margin-right: 130px;
+        position: relative;
+        bottom: 135px;
+
+     }
+
+     .checkbox{
+         position: relative;
+        bottom: 100px;
+         margin-right: 280px;
+         
+        
+     }
+
+     .netflix-logo{
+       width: 230px;
+       height: 140px;
+       margin-top: -30px;
+       position: relative;
+       right: 10px;
+     }
+    
+     #res{
+         color: rgba(255, 0, 0, 0.788);
+         font-size: 15px;
+     }
+
+     #res1{
+         color: rgba(255, 0, 0, 0.788);
+         font-size: 15px;
+         position: relative;
+         bottom: 30px;
+     }
+
+     .or{
+        color: white;
+        position: relative;
+        bottom: 110px;
+        display: flex;
+        justify-content: center;
+     }
+
+     .criarConta{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(128, 128, 128, 0.37);
+        color: white;
+        height: 40px;
+        border-radius: 5px;
+        border: none;
+        outline: none;
+        position: relative;
+        bottom: 110px;
+     }
+
+     .criarConta:hover{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(97, 96, 96, 0.37);
+        color: white;
+        height: 40px;
+        border-radius: 5px;
+        border: none;
+        outline: none;
+        position: relative;
+        bottom: 110px;
+     }
+
+     .esqueceu-senha{
+       position: relative;
+       bottom: 100px;
+       display: flex;
+       justify-content: center;
+       font-size: 20px;
+       
+     }
+
+     .link-reset-senha{
+        text-decoration: none;
+       color: rgba(224, 223, 223, 0.712);
+     }
+
+     .cadastrar{
+       position: relative;
+       bottom: 100px;
+       display: flex;
+       justify-content: flex-start;
+       font-size: 20px;
+     }
+
+     .link-cadastrar-conta{
+        text-decoration: none;
+       color: rgba(228, 223, 223, 0.911);
+     }

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="shortcut icon" type="image/jpg" href="./img-fav/netflix.png"/>
+   <link rel="stylesheet" href="Esqueceu-Senha.css">
+</head>
+<body>
+    <header>
+        <img src="./img/netflix.jpg" alt="" class="netflix-logo">
+    </header>
+    <div id="container">
+        <div id="login">
+            
+            <div class="title-paragraph">
+                <h1 id="title-reset">Esqueci e-mail/senha</h1>
+                <p class="paragraph-reset">Como você gostaria de redefinir a sua senha?</p>
+            </div>
+            
+            <div class="radio-email">
+                <input type="radio" name="username" id="login-txt" class="login" placeholder="Email ou número de telefone">
+                <label">Mensagem de Texto</label>
+            </div>
+
+            <div class="radio-senha">
+                <input type="radio" name="password" id="senha" class="senha" placeholder="Senha">
+                <label for="">E-mail</label>
+            </div>
+            
+            <div class="input-email">
+               <p class="msg-send-email">Enviaremos um e-mail com instruções sobre como redefinir sua senha.</p>
+               <input class="email" type="email" placeholder="nome@example.com">
+            </div>
+
+            <div class="enviar-email">
+                <button onclick="entrar(this)" value="/perfil.html" id="btn-entrar" class="btn-entrar">Entrar</button >   
+            </div>
+
+            <div>
+                <a href="" class="Esqueceu-Email">Não me lembro do meu e-mail ou telefone.</a>
+            </div>
+
+            <div>
+
+            </div>
+        </div>
+    </div>
+    <script src="main.js">
+       
+    </script>
+</body>
+</html>
