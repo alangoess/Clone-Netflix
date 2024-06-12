@@ -6,7 +6,7 @@ function entrar(link){
     let erro_senha = document.getElementById('res1')
  
     if(login == 'admin' && senha == 'admin'){
-     location.href = './perfil.html'
+     location.href = '../Perfil/perfil.html'
     }else{
    erro.innerHTML = 'Informe um email ou número de telefone válido.'
    erro_senha.innerHTML = 'Senha incorreta.'

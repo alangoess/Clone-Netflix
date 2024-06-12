@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="shortcut icon" type="image/jpg" href="./img-fav/netflix.png"/>
+   <link rel="stylesheet" href="./CriarConta.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="head">
+        <a href="./CriarConta.html"><img src="./img/netflix.jpg" alt="" class="netflix-logo"></a>
+       
+        <select name="language" id="language" class="language-select">
+            <option value="">Português</option>
+            <option value="">Inglês</option>
+        </select>
+        <button id="btn-entrar" class="btn-entrar">Entrar</button>
+    </header>
+
+    <div id="container">
+        <div class="info-atention">
+           <h1 class="info-title">Filmes, séries e muito mais, sem limites</h1>
+           <p class="info-paragraph">Assista onde quiser. Cancele quando quiser.</p>
+           <p class="info-paragraph2">Quer assistir? Informe seu email para criar ou reiniciar sua assinatura.</p>
+        </div>
+        
+        <div class="criar-reiniciar-assinatura">
+            <input type="email" name="email" id="email" class="email" placeholder="Email">
+            <button onclick="submit()" class="submit">Vamos lá ></button>
+        </div>
+   </div>
+
+   <div id="ads-container">
+    
+    <img src="./img/pipoca.png" alt="" class="popcorn">
+
+   <div class="ads-info">
+    <h2 class="title-ads">A Netflix que você adora por apenas R$ 20,90.</h2>
+    <p id="text-ads" class="text-ads">Assine o plano Padrão com anúncios.</p>
+    <a href="" class="link-ads">Saiba mais ></a>
+   </div>
+
+   </div>
+    
+   
+    <script src="./CriarConta.js">
+       const btn_entrar = document.getElementById('btn-entrar')
+
+btn_entrar.addEventListener('click', function(){
+    window.location.href = './Paginas/Login/index.html';
+})
+    </script>
+</body>
+</html>

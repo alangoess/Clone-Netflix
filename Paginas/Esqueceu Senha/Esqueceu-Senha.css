@@ -1,5 +1,5 @@
 body{
-    background-image: url("./img/fala-universidades-netflix-3.jpg");
+    background-image: url("https://miro.medium.com/v2/resize:fit:2560/format:webp/1*r_ICXrDPhEZjWnRG43IH1g.jpeg");
      }
 
      body::before{
@@ -23,7 +23,7 @@ body{
          flex-direction: column;
          justify-content: center;
          margin: 0 auto;
-         max-width: 350px; /* Adiciona uma largura máxima ao contêiner, ajuste conforme necessário */
+         max-width: 355px; /* Adiciona uma largura máxima ao contêiner, ajuste conforme necessário */
          position: relative;
          top: 20px;
          
@@ -32,18 +32,21 @@ body{
      .title-paragraph{
         margin-bottom: 80px;
         width: 550px;
+        
      }
 
      #title-reset{
         position: relative;
         color: rgb(0, 0, 0);
         top: 20px;
+        font-family: Arial, Helvetica, sans-serif;
      }
 
      .paragraph-reset{
         position: relative;
         top: 20px;
-        font-size: 18px;
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
      }
 
      .radio-email{
@@ -71,11 +74,12 @@ body{
      }
 
      .msg-send-email{
-        font-size: 18px;
+        font-size: 16px;
         width: 400px;
         display: flex;
         justify-content: center;
         margin: 0 auto;
+        font-family: Arial, Helvetica, sans-serif;
      }
 
      .email{
@@ -88,9 +92,10 @@ body{
      .Esqueceu-Email{
         position: relative;
         bottom: 80px;
-        font-size: 17px;
+        font-size: 16px;
         text-decoration: none;
         color: rgb(64, 104, 236);
+        font-family: Arial, Helvetica, sans-serif;
      }   
 
      .Esqueceu-Email{
