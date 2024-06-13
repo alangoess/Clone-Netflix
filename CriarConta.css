@@ -196,3 +196,50 @@ body{
       left: 390px;
       top: 30px;
      }
+
+     .stream-content{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+     }
+
+     .content1, .content2, .content3{
+      display: flex;
+      height: 400px;
+      justify-content: space-around;
+      background-color: black;
+      color: white;
+      
+      
+     }
+
+     .stream-text, .stream-text2, .stream-text3{
+      width: 450px;
+      font-family: "Poppins", sans-serif;
+      font-size: 22px;
+      
+     }
+
+   
+    
+     .img-serie, .img-serie2, .img-serie3{
+      width: 400px;
+      position: relative;
+      top: 50px;
+     }
+
+     .informacoes-web{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      background-color: black;
+     }
+
+
+     .title-questions{
+      color: white;
+      display: flex;
+      justify-content: center;
+      font-family: "Poppins", sans-serif;
+      font-size: 22px;
+     }
