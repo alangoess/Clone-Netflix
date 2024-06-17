@@ -19,136 +19,67 @@
 
 <body>
     <header id="head">
-        <a href="./CriarConta.html"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Logonetflix.png" alt="" class="netflix-logo"></a>
+        <a href="./CriarConta.html"><img src="../../img/netflix.jpg" alt="" class="netflix-logo"></a>
+
+        <select name="language" id="language" class="language-select">
+            <option value="">Português</option>
+            <option value="">Inglês</option>
+        </select>
         <button id="btn-entrar" class="btn-entrar">Entrar</button>
     </header>
 
-    <div id="container">
-        <div class="img-verificar">
-            <img src="./img/verificado.png" alt="">
-
-            <p class="text-verificar">Passo 1 de 4</p>
-
-            <h1 class="text-plano">Escolha seu plano</h1>
-        </div>
-
-        <div></div>
-    </div>
-
-    <div id="ads-container">
-
-        <img src="./img/pipoca.png" alt="" class="popcorn">
-
-        <div class="ads-info">
-            <h2 class="title-ads">A Netflix que você adora por apenas R$ 20,90.</h2>
-            <p id="text-ads" class="text-ads">Assine o plano Padrão com anúncios.</p>
-            <a href="" class="link-ads">Saiba mais ></a>
-        </div>
-    </div>
-
+   
     <div id="stream-content" class="stream-content">
         <div class="content1">
 
             <div class="stream-text">
-                <h1 class="stream-title">Aproveite na TV</h1>
-                <p class="stream-paragraph">Assista em Smart TVs, PlayStation, Xbox, Chromecast, Apple TV, aparelhos de
-                    Blu-ray e outros dispositivos.</p>
+                <h1 class="stream-title">Assine o Padrão com anúncios, o nosso plano mais econômico.</h1>
+                <button class="stream-paragraph">Assine por 20,90</button>
             </div>
 
             <div class="img-content">
-                <img class="img-serie"
-                    src="https://images.ctfassets.net/4cd45et68cgf/2Dw84LjrNM9RE1zEeYTsU5/ff4fd4fe9b74eeb96e157b065f12087f/brevemente-na-netflix_-lembretes-para-os-t_tulos-favoritos.jpg?w=2000"
-                    alt="">
+                <div class="plan-preco">
+                    <p class="txt-preco-mes">Preço/mês</p>
+                    <p class="txt-desc-preco">R$ 20,90</p>
+                </div>
+
+                <div class="plan-ads">
+                    <p class="txt-anuncio">Anúncios</p>
+                    <p class="txt-desc-anuncio">Breves e integrados
+
+                    </p>
+                </div>
+                <div class="plan-resolucao">
+                    <p class="txt-resolucao">Resolução</p>
+                    <p class="txt-desc-resolucao">1080p (Full HD)
+
+                    </p>
+                </div>
+                <div class="plan-aparelhos">
+                   <p class="txt-aparelhos"> Aparelhos para assistir ao mesmo tempo na sua residência</p>
+                   <p class="txt-desc-aparelhos">2</p>
+                </div>
+                <div class="plan-baixar">
+                    <p class="txt-baixar">Baixar</p>
+                    <p class="txt-desc-baixar">Incluso</p>
+                </div>
             </div>
         </div>
 
-
-        <div class="content1">
-
-            <div class="img-content">
-                <img class="img-serie" src="https://www.marketplace.org/wp-content/uploads/2021/01/nflix.jpg?w=600"
-                    alt="">
-            </div>
-
-            <div class="stream-text">
-                <h1 class="stream-title">Assista onde quiser</h1>
-                <p class="stream-paragraph">Assista a quantos filmes e séries quiser no celular, tablet, laptop e TV.
-                </p>
-            </div>
-        </div>
-
-        <div class="content1">
-
-            <div class="stream-text">
-                <h1 class="stream-title">Crie perfis para crianças</h1>
-                <p class="stream-paragraph">Deixe as crianças se aventurarem com seus personagens favoritos em um espaço
-                    feito só para elas, sem pagar a mais por isso.</p>
-            </div>
-
-            <div class="img-content">
-                <img class="img-serie"
-                    src="https://i0.wp.com/assets.b9.com.br/wp-content/uploads/2016/05/netflix.jpg?fit=1060%2C597&ssl=1"
-                    alt="">
-            </div>
-        </div>
-
-        <div class="content1">
-
-            <div class="img-content">
-                <img class="img-serie" src="https://www.marketplace.org/wp-content/uploads/2021/01/nflix.jpg?w=600"
-                    alt="">
-            </div>
-
-            <div class="stream-text">
-                <h1 class="stream-title">Baixe séries para assistir offline</h1>
-                <p class="stream-paragraph">Assista em um avião, trem ou submarino...</p>
-            </div>
-        </div>
+        
 
         <div class="informacoes-web">
 
             <div class="title-questions">
-                <h1 class="title-question">Perguntas frequentes</h1>
+                <h1 class="title-question">Por que você vai amar este plano</h1>
             </div>
 
-            <div class="btn-info">
+            
 
-                <div class="btn-modal">
-                    <button id="btn-question1" class="btn-question1">O QUE É A NETFLIX?</button>
-                    <button id="closeModal" class="closeModal">X</button>
-                </div>
-
-                <dialog class="question-info" id="question-info">
-                    <p>A Netflix é um serviço de streaming que oferece uma ampla variedade de séries, filmes e
-                        documentários premiados em milhares de aparelhos conectados à internet.
-                        Você pode assistir a quantos filmes e séries quiser, quando e onde quiser – tudo por um preço
-                        mensal acessível. Aqui você sempre encontra novidades. A cada semana, adicionamos novas séries e
-                        filmes.</p>
-
-
-                </dialog>
-            </div>
-
-
-            <div class="btn-modal2">
-                <button id="btn-question2" class="btn-question2">O QUE É A NETFLIX?</button>
-                <button id="closeModal" class="closeModal">X</button>
-            </div>
-
-            <dialog class="question-info" id="question-info">
-                <p>A Netflix é um serviço de streaming que oferece uma ampla variedade de séries, filmes e
-                    documentários premiados em milhares de aparelhos conectados à internet.
-                    Você pode assistir a quantos filmes e séries quiser, quando e onde quiser – tudo por um preço
-                    mensal acessível. Aqui você sempre encontra novidades. A cada semana, adicionamos novas séries e
-                    filmes.</p>
-
-
-            </dialog>
-        </div>
 
 
         </div>
-        <script src="./sign-up.js">
+        <script src="./CriarConta.js">
         </script>
 </body>
 
