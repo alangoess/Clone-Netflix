@@ -82,60 +82,6 @@ option {
    text-align: center;
 }
 
-.info-paragraph2 {
-   font-size: 17px;
-   font-family: "Poppins", sans-serif;
-   text-align: center;
-}
-
-.criar-reiniciar-assinatura {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-}
-
-.email {
-   width: 380px;
-   height: 55px;
-   border-radius: 5px;
-   background-color: rgba(65, 65, 65, 0.795);
-   font-size: 17px;
-   font-family: Arial, Helvetica, sans-serif;
-   font-weight: 600;
-   color: white;
-   border-bottom: none;
-   border-right: none;
-}
-
-.submit {
-   width: 180px;
-   height: 55px;
-   background-color: red;
-   color: white;
-   border: none;
-   border-radius: 5px;
-   outline: none;
-   font-size: 17px;
-   font-family: "Poppins", sans-serif;
-   text-align: center;
-   margin: 10px;
-
-
-}
-
-#title-reset {
-   position: relative;
-   color: rgb(0, 0, 0);
-   top: 20px;
-   font-family: Arial, Helvetica, sans-serif;
-}
-
-.paragraph-reset {
-   position: relative;
-   top: 20px;
-   font-size: 16px;
-   font-family: Arial, Helvetica, sans-serif;
-}
 
 
 .netflix-logo {
@@ -166,23 +112,7 @@ option {
    margin: 0 auto;
 }
 
-.title-ads {
-   font-family: "Poppins", sans-serif;
-   font-size: 20px;
-   color: white;
-   position: relative;
-   left: 50px;
 
-}
-
-.text-ads {
-   font-family: "Poppins", sans-serif;
-   font-size: 15px;
-   color: white;
-   position: relative;
-   bottom: 28px;
-   right: 40px;
-}
 
 .link-ads {
    font-family: "Poppins", sans-serif;
@@ -241,7 +171,7 @@ option {
    height: 300px;
    background-color: rgb(53, 21, 41);
    border-radius: 10px;
-   border-top:red solid 2px;
+   border-top: red solid 2px;
 }
 
 .plan-preco,
@@ -292,13 +222,6 @@ option {
    top: 20px;
 }
 
-.img-serie,
-.img-serie2,
-.img-serie3 {
-   width: 400px;
-   position: relative;
-   top: 50px;
-}
 
 .informacoes-web {
    display: flex;
@@ -312,21 +235,42 @@ option {
    width: 100%;
 }
 
-.info-ads{
-display: flex;
-justify-content: center;
-align-items: center;
-margin: 0 auto;
-flex-wrap: wrap;
-width: 50rem;
+.info-ads {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 0 auto;
+   flex-wrap: wrap;
 }
 
-.info-ads1{
-   width: 200px;
-   height: 200px;
-   background-color: aliceblue;
+.info-ads1 {
+   width: 400px;
+   height: 300px;
    margin: 40px;
+   top: 100px;
+   position: relative;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   text-align: center;
+
 }
+
+.title-ads {
+   font-family: "Poppins", sans-serif;
+   font-size: 19px;
+   color: white;
+   margin: -15px;
+}
+
+.text-ads {
+   font-family: "Poppins", sans-serif;
+   font-size: 17px;
+   font-weight: 500;
+   color: rgb(199, 199, 199);
+
+}
+
 .title-questions {
    color: white;
    display: flex;
@@ -334,77 +278,80 @@ width: 50rem;
    font-family: "Poppins", sans-serif;
    font-size: 22px;
    position: relative;
-   
+   top: 100px;
+
 
 }
 
-.btn-modal {
-   display: flex;
-   justify-content: center;
 
-}
-
-.btn-modal2 {
-   display: flex;
-   justify-content: center;
-
-}
-
-.btn-info {
-   color: white;
-
-   font-family: "Poppins", sans-serif;
-   font-size: 22px;
-   display: flex;
-   justify-content: center;
+.img-relogio {
+   width: 90px;
+   height: 90px;
    margin: 0 auto;
-   background-color: rgb(59, 59, 59);
-   width: 55rem;
-   height: 70px;
    position: relative;
-   bottom: 200px;
+   bottom: 30px;
 }
 
-.closeModal {
-   background-color: rgb(59, 59, 59);
-   color: white;
-   border: none;
-   font-family: "Poppins", sans-serif;
-   font-size: 22px;
-   width: 40px;
+.img-espada {
+   margin: 0 auto;
+   position: relative;
+   top: 30px;
 }
 
-.btn-question1 {
-   width: 55rem;
-   font-family: "Poppins", sans-serif;
-   font-size: 22px;
-   background-color: rgb(59, 59, 59);
-   color: white;
-   border: none;
-   text-align: start;
-   transition: 55s linear;
+
+.experimentar_plano {
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+   margin: 150px;
 }
 
-.btn-question2 {
-   width: 55rem;
-   font-family: "Poppins", sans-serif;
-   font-size: 22px;
-   background-color: rgb(59, 59, 59);
+.title-experimentar-plano {
    color: white;
-   border: none;
-   text-align: start;
-   transition: 55s linear;
-   height: 70px;
+   font-family: "Poppins", sans-serif;
+
 }
 
-.question-info {
-   width: 876px;
-   margin-top: 70px;
-   margin-left: -20px;
+.txt-experimentar-plano {
+   color: rgb(175, 173, 173);
    font-family: "Poppins", sans-serif;
+   font-size: 20px;
+   margin: -15px;
+
+}
+
+.btn-finalizar {
+   margin: 50px;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+}
+
+.btn-assinar {
+   height: 50px;
+   width: 250px;
+   margin: 7px;
+   border-radius: 5px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 20px;
+   font-weight: 500;
    border: none;
-   background-color: rgb(41, 41, 41);
    color: white;
-   transition: 55s linear;
+   background-color: red;
+
+}
+
+.btn-planos {
+   height: 50px;
+   width: 250px;
+   margin: 7px;
+   border-radius: 5px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 20px;
+   font-weight: 500;
+   border: none;
+   color: white;
+   background-color: rgb(48, 48, 48);
 
 }
