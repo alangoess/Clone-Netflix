@@ -7,17 +7,6 @@ btn_entrar.addEventListener('click', function(){
 const btn = document.getElementById('btn-question1')
 const modal = document.querySelector('dialog')
 const btn_close = document.getElementById('closeModal')
-const email = document.getElementById('email')
-
-
-function submit(){
-    if(!email.checkValidity()){ //condição usada para validar o email
-        console.log('email invalido')
-    }else{
-        window.location = './Paginas/sign-up/terminar_cadastro/sign-up.html'
-    }
-    
-}
 
 btn.onclick = function(){
     modal.show()
