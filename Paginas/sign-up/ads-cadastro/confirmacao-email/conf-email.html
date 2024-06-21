@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Netflix</title>
     <link rel="shortcut icon" type="image/jpg" href="../../../img-fav/netflix.png" />
-    <link rel="stylesheet" href="./ads-cadastro.css">
+    <link rel="stylesheet" href="./conf-email.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -26,18 +26,19 @@
 
     <div id="container">
         <div class="img-verificar">
-            <h1 class="text-plano">Crie uma senha para iniciar sua assinatura</h1>
-            <p class="text-verificar2">Você selecionou o plano <b>Padrão com anúncios</b>. Faltam só mais alguns passos!</p>
+            <h1 class="text-plano">Ótimo, agora vamos verificar seu email</h1>
+            <p class="text-verificar2" id="text-verificar2"></p>
+            <p class="text-verificar3">A verificação do seu email aumenta a segurança da conta e ajuda você a receber comunicações importantes da Netflix.
+            </p>
 
             <div class="ads-cadastro-email-senha">
-                <input type="email" class="ads-cadastro-email" id="ads-cadastro-email" placeholder="Email">
-                <input type="password" class="ads-cadastro-senha" id="ads-cadastro-senha" placeholder="Adicione uma senha">
-                <button class="btn-proximo" id="btn-proximo">Próximo</button>
+        
+                <button onclick="pular()" class="btn-proximo" id='btn-pular'>Pular</button>
             </div>
         </div>
     </div>
     </div>
-    <script src="ads-cadastro.js">
+    <script src="./conf-email.js">
     </script>
 </body>
 
