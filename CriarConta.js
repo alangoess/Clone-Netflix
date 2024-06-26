@@ -13,6 +13,8 @@ const email = document.getElementById('email')
 function submit(){
     if(!email.checkValidity()){ //condição usada para validar o email
         console.log('email invalido')
+
+        
     }else{
         window.location = './Paginas/sign-up/terminar_cadastro/sign-up.html'
     }

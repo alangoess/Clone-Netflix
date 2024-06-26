@@ -1,0 +1,112 @@
+body {
+   margin: 0;
+   padding: 0;
+}
+
+body::before {
+   opacity: 60%;
+}
+
+#container {
+   width: 470px;
+   height: 500px;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+   margin: 0 auto;
+   color: white;
+   background-color: white;
+   width: 100%;
+}
+
+.verificar-img{
+   position: relative;
+   top: 20px;
+}
+.img-verificar { 
+   align-items: center;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   width: 900px;
+   height: 500px;
+   position: relative;
+   top: 30px;  
+   
+}
+
+.text-verificar{
+   color: black;
+   font-family: Arial, Helvetica, sans-serif;
+   position: relative;
+   top: 30px;
+   width: 100px;
+}
+
+.text-verificar2{
+   color: black;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 18px;
+   position: relative;
+   bottom: 20px;
+   width: 250px;
+   margin: 10px;
+}
+
+.btn-proximo{
+   height: 70px;
+   width: 320px;
+   color: white;
+   border: none;
+   border-radius: 10px;
+   font-family:Arial, Helvetica, sans-serif;
+   font-size: 20px;
+   background-color: red;
+}
+
+.text-plano{
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 350px;
+  text-align: center;
+
+}
+
+#head {
+   display: flex;
+   justify-content: space-around;
+   background-color: white;
+   height: 90px;
+   align-items: center;
+   border: rgba(0, 0, 0, 0.137) solid 1px;
+
+}
+
+.btn-entrar {
+   height: 35px;
+   width: 80px;
+   font-family: "Poppins", sans-serif;
+   font-weight: 500;
+   font-size: 18px;
+   color: black;
+   background-color: white;
+   border: none;
+   border-radius: 5px;
+   position: relative;
+   left: 220px;
+
+}
+
+
+
+.netflix-logo {
+   width: 175px;
+   height: 52px;
+
+   position: relative;
+   right: 220px;
+
+}
+
+

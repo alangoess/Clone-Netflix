@@ -1,0 +1,146 @@
+   body {
+      margin: 0;
+      padding: 0;
+   }
+
+   body::before {
+      opacity: 60%;
+   }
+
+   #container {
+      width: 470px;
+      height: 500px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      margin: 0 auto;
+      color: white;
+      background-color: white;
+      width: 100%;
+   }
+
+   .verificar-img{
+      position: relative;
+      top: 20px;
+   }
+   .img-verificar { 
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      width: 500px;
+      height: 500px;
+      position: relative;
+      top: 30px;  
+
+      
+   }
+   .text-verificar2{
+      color: black;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 18px;
+      text-align: center;
+      position: relative;
+      bottom: 20px;
+      width: 420px;
+   }
+
+   .text-verificar3{
+      color: black;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 20px;
+      text-align: center;
+      position: relative;
+      bottom: 20px;
+      width: 390px;
+   }
+      
+   .cred-deb{
+      height: 80px;
+      width: 450px;
+      color: black;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      position: relative;
+      right: 30px;
+      border: rgba(0, 0, 0, 0.418) 1px solid;
+      border-radius: 5px;
+      font-family:Arial, Helvetica, sans-serif;
+      font-size: 15px;
+      text-align: start;
+      background-color: rgb(255, 255, 255);
+      margin-top: 15px;
+      cursor: pointer;
+   }
+
+   .prepag{
+      height: 50px;
+      width: 450px;
+      display: flex;
+      align-items: center;
+      color: black;
+      position: relative;
+      right: 30px;
+      border: rgba(0, 0, 0, 0.418) 1px solid;
+      border-radius: 5px;
+      font-family:Arial, Helvetica, sans-serif;
+      text-align: start;
+      font-size: 15px;
+      background-color: rgb(255, 255, 255);
+      margin-top: 10px;
+      cursor: pointer;
+      
+   }
+
+   .img-prepag{
+      margin: 4px;
+   }
+
+   .text-plano{
+   color: black;
+   font-family: Arial, Helvetica, sans-serif;
+   text-align: center;
+   font-size: 30px;
+   width: 450px;
+   }
+
+   #head {
+      display: flex;
+      justify-content: space-around;
+      background-color: white;
+      height: 90px;
+      align-items: center;
+      border: rgba(0, 0, 0, 0.137) solid 1px;
+
+   }
+
+   .btn-entrar {
+      height: 35px;
+      width: 80px;
+      font-family: "Poppins", sans-serif;
+      font-weight: 500;
+      font-size: 18px;
+      color: rgba(0, 0, 0, 0.37);
+      background-color: white;
+      border: none;
+      border-radius: 5px;
+      position: relative;
+      left: 220px;
+
+   }
+
+   .netflix-logo {
+      width: 175px;
+      height: 52px;
+
+      position: relative;
+      right: 220px;
+
+   }
+
+
+.cadeado-img{
+   width: 100px;
+}
