@@ -9,74 +9,33 @@ body::before {
 
 #container {
    width: 470px;
+   height: 500px;
    display: flex;
    justify-content: center;
    flex-direction: column;
+   align-items: center;
    margin: 0 auto;
    color: white;
+   background-color: white;
    width: 100%;
 }
 
-.planos{
-   width:68rem;
-   height: 810px;
-   position:relative;
-   bottom: 15rem;
-   margin: 0 auto;
-   display: flex;
-   justify-content: space-evenly;
-   
+.verificar-img{
+   position: relative;
+   top: 20px;
 }
-
-.premium, .padrao, .padrao-anuncios{
-   width: 310px;
-   height: 700px;
-   border: rgba(0, 0, 0, 0.24) solid 1px;
-   border-radius: 15px;
-   display: flex;
-   justify-content: center;   
-   flex-direction: column;
+.img-verificar { 
    align-items: center;
-   position: relative;
-   
-}
-
-.premium-title{
-   width: 290px;
-   height: 70px;
-   background: linear-gradient(90deg, rgb(72, 95, 226) 30%, rgba(156, 24, 64, 1) 100%);
-   color: white;
-   border-radius: 12px;
-   display: flex;
-   flex-direction:column;
-   font-family: Arial, Helvetica, sans-serif;
-   justify-content: center;
-   position: relative;
-   bottom:15rem;
-}
-
-.plan-title{
-   margin: 2px;
-   margin-left: 15px;
-   font-size: 20px;
-}
-.title-paragraph { 
-   align-items: flex-start;
    display: flex;
    justify-content: center;
    flex-direction: column;
+   width: 900px;
+   height: 500px;
    position: relative;
-   bottom: 120px;  
-   margin: 130px;
-   font-family: Arial, Helvetica, sans-serif;
-   color: black;
+   top: 30px;  
+   
 }
 
-.paragraph{
-position: relative;
-top: 30px;
-font-size: 12px;
-}
 .text-verificar{
    color: black;
    font-family: Arial, Helvetica, sans-serif;
@@ -104,7 +63,6 @@ font-size: 12px;
    font-family:Arial, Helvetica, sans-serif;
    font-size: 20px;
    background-color: red;
-   margin: 0 auto;
 }
 
 .text-plano{
