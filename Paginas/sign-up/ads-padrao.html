@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="shortcut icon" type="image/jpg" href="../../img-fav/netflix.png" />
+    <link rel="stylesheet" href="./ads-padrao.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header id="head">
+        <a href="../../CriarConta.html"><img src="../../img/netflix.jpg" alt="" class="netflix-logo"></a>
+
+        <select name="language" id="language" class="language-select">
+            <option value="">Português</option>
+            <option value="">Inglês</option>
+        </select>
+        <button id="btn-entrar" class="btn-entrar">Entrar</button>
+    </header>
+
+
+    <div id="stream-content" class="stream-content">
+        <div class="content1">
+
+            <div class="stream-text">
+                <h1 class="stream-title">Assine o Padrão com anúncios, o nosso plano mais econômico.</h1>
+                <button class="stream-paragraph" onclick="promo_assinar()" id="promo_assinar">Assine por R$ 20,90</button>
+            </div>
+
+            <div class="img-content">
+                <div class="plan-preco">
+                    <p class="txt-preco-mes">Preço/mês</p>
+                    <p class="txt-desc-preco">R$ 20,90</p>
+                </div>
+
+                <div class="plan-ads">
+                    <p class="txt-anuncio">Anúncios</p>
+                    <p class="txt-desc-anuncio">Breves e integrados
+
+                    </p>
+                </div>
+                <div class="plan-resolucao">
+                    <p class="txt-resolucao">Resolução</p>
+                    <p class="txt-desc-resolucao">1080p (Full HD)
+
+                    </p>
+                </div>
+                <div class="plan-aparelhos">
+                    <p class="txt-aparelhos"> Aparelhos para assistir ao mesmo tempo na sua residência</p>
+                    <p class="txt-desc-aparelhos">2</p>
+                </div>
+                <div class="plan-baixar">
+                    <p class="txt-baixar">Baixar</p>
+                    <p class="txt-desc-baixar">Incluso</p>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="informacoes-web">
+
+            <div class="title-questions">
+                <h1 class="title-question">Por que você vai amar este plano</h1>
+            </div>
+
+            <div class="info-ads">
+
+                <div class="info-ads1">
+                    <img src="./terminar_cadastro/img/espadas.png" alt="" class="img-relogio">
+                    <h1 class="title-ads">Anúncios que não interrompem a ação</h1>
+                    <p class="text-ads">Você verá apenas alguns anúncios curtos, programados para nunca interromper os
+                        momentos principais.</p>
+                </div>
+
+                <div class="info-ads1">
+                    <img src="./terminar_cadastro/img/relogio.png" alt="" class="img-relogio">
+                    <h1 class="title-ads">Apenas alguns minutos de anúncios por hora</h1>
+                    <p class="text-ads">É o tempo ideal para se alongar ou beliscar algo rapidinho.</p>
+                </div>
+
+                <div class="info-ads1">
+                    <img src="./terminar_cadastro/img/claquete.png" alt="" class="img-relogio">
+                    <h1 class="title-ads">Apenas alguns minutos de anúncios por hora</h1>
+                    <p class="text-ads">É o tempo ideal para se alongar ou beliscar algo rapidinho.</p>
+                </div>
+
+                <div class="info-ads1">
+                    <img src="./terminar_cadastro/img/tv.png" alt="" class="img-relogio">
+                    <h1 class="title-ads">Apenas alguns minutos de anúncios por hora</h1>
+                    <p class="text-ads">É o tempo ideal para se alongar ou beliscar algo rapidinho.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="experimentar_plano">
+            <h1 class="title-experimentar-plano">Experimente o Padrão com anúncios ainda hoje</h1>
+            <p class="txt-experimentar-plano">Altere ou cancele seu plano quando quiser.</p>
+
+            <div class="btn-finalizar">
+                <button class="btn-assinar" id="btn-assinar" onclick="assinar()">Assine por R$ 20,90</button>
+                <button class="btn-planos" id="btn-planos" onclick="planos()">Conheça todos os planos</button>
+            </div>
+        </div>
+        <script src="./ads-padrao.js">
+        </script>
+</body>
+
+</html>

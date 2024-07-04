@@ -11,20 +11,13 @@ const email = document.getElementById('email')
 
 
 function submit(){
-    if(!email.checkValidity()){ //condição usada para validar o email
+    if(!email.checkValidity() || email.value.trim() === ''){ //condição usada para validar o email
         console.log('email invalido')
 
         
     }else{
-        window.location = './Paginas/sign-up/terminar_cadastro/sign-up.html'
+        window.location = './Paginas/sign-up/terminar_cadastro/terminar-cadastro.html'
     }
     
 }
 
-btn.onclick = function(){
-    modal.show()
-}
-
-btn_close.onclick = function(){
-    modal.close()
-}

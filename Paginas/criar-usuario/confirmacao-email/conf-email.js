@@ -9,5 +9,5 @@ document.addEventListener('DOMContentLoaded', function(){
 
 let btn_pular = document.getElementById('btn-pular')
 btn_pular.addEventListener('click', function(){
-    location.href = '../escolher_plano/sign-up.html'
+    location.href = '../escolher_plano/escolher-plano.html'
 })

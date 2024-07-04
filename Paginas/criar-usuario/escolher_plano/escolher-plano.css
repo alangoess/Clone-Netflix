@@ -1,0 +1,282 @@
+body {
+   margin: 0;
+   padding: 0;
+}
+
+body::before {
+   opacity: 60%;
+}
+
+#container {
+   width: 470px;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   margin: 0 auto;
+   color: white;
+   width: 100%;
+}
+
+.planos{
+   width:68rem;
+   height: 890px;
+   position:relative;
+   top: 50px;
+   margin: 0 auto;
+   position: relative;
+   right: 50px;
+   display: flex;
+   justify-content: space-evenly;
+   
+   
+}
+
+.premium, .padrao, .padrao-anuncios{
+   width: 320px;
+   height: 850px;
+   border: rgba(0, 0, 0, 0.24) solid 1px;
+   border-radius: 15px;
+   display: flex;
+   justify-content: center;   
+   flex-direction: column;
+   align-items: center;
+   position: relative;
+   
+}
+
+.premium-title{
+   width: 300px;
+   height: 70px;
+   background: linear-gradient(90deg, rgb(72, 95, 226) 30%, rgba(156, 24, 64, 1) 100%);
+   color: white;
+   border-radius: 12px;
+   display: flex;
+   flex-direction:column;
+   font-family: Arial, Helvetica, sans-serif;
+   justify-content: center;
+   position: relative;
+   bottom:13rem;
+   
+}
+
+.plan-title{
+   margin: 2px;
+   margin-left: 15px;
+   font-size: 20px;
+   position: relative;
+}
+.title-paragraph { 
+   align-items: flex-start;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   position: relative;
+   bottom: 120px;  
+   margin: 130px;
+   font-family: Arial, Helvetica, sans-serif;
+   color: black;
+}
+
+.paragraph{
+position: relative;
+top: 30px;
+font-size: 12px;
+}
+.plan-preco{
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-start;
+   font-size: 13px;
+   font-family: "Poppins", sans-serif;
+   border-bottom: rgba(255, 255, 255, 0.192) solid .5px;
+   border-width: -5px;
+}
+
+.txt-preco-mes,
+.txt-anuncio,
+.txt-resolucao,
+.txt-aparelhos,
+.txt-baixar {
+   margin-left: 30px;
+   width: 180px;
+   color: black;
+}
+
+.text-verificar2{
+   color: black;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 18px;
+   position: relative;
+   bottom: 20px;
+   width: 250px;
+   margin: 10px;
+}
+
+.btn-proximo{
+   height: 70px;
+   width: 320px;
+   color: white;
+   border: none;
+   border-radius: 10px;
+   font-family:Arial, Helvetica, sans-serif;
+   font-size: 20px;
+   background-color: red;
+   margin: 0 auto;
+   cursor: pointer;
+}
+a{
+   text-decoration: none;
+   color: white;
+}
+.text-plano{
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 350px;
+  text-align: center;
+
+}
+
+#head {
+   display: flex;
+   justify-content: space-around;
+   background-color: white;
+   height: 90px;
+   align-items: center;
+   border: rgba(0, 0, 0, 0.137) solid 1px;
+
+}
+
+.btn-entrar {
+   height: 35px;
+   width: 80px;
+   font-family: "Poppins", sans-serif;
+   font-weight: 500;
+   font-size: 18px;
+   color: black;
+   background-color: white;
+   border: none;
+   border-radius: 5px;
+   position: relative;
+   left: 220px;
+
+}
+
+.checkbox-plan{
+   margin-left: 10px;
+}
+
+.netflix-logo {
+   width: 175px;
+   height: 52px;
+
+   position: relative;
+   right: 220px;
+
+}
+
+
+
+
+
+
+
+.stream-content {
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+}
+
+.content1 {
+   display: flex;
+   height: 400px;
+   justify-content: space-around;
+ 
+   color: white;
+   margin-top: 100px;
+
+}
+
+.stream-text,
+.stream-text2,
+.stream-text3 {
+   width: 430px;
+   font-family: "Poppins", sans-serif;
+   font-size: 19px;
+   position: relative;
+   left: 100px;
+
+}
+
+.stream-title {
+   width: 380px;
+
+}
+
+.img-content {
+   width: 280px;
+   height: 350px;
+   position: relative;
+   display: flex;
+   justify-content:center;
+   flex-direction: column;
+   align-items: flex-start;
+   bottom: 10px;
+   right: 25px;
+   border-radius: 10px;
+}
+
+.plan-preco,
+.plan-ads,
+.plan-resolucao,
+.plan-aparelhos,
+.plan-baixar,
+.plan-compativel,
+.plan-quantidade-aparelhos,
+.plan-download,
+.plan-anuncios {
+   font-size: 13px;
+   font-family: "Poppins", sans-serif;
+   border-bottom: rgba(255, 255, 255, 0.192) solid .5px;
+   border-width: -5px;
+   
+}
+
+.txt-desc-preco,
+.txt-desc-anuncio,
+.txt-desc-resolucao,
+.txt-desc-aparelhos,
+.txt-desc-baixar,
+.txt-desc-compatibilidade,
+.txt-desc-qtd-aparelhos,
+.txt-desc-download,
+.txt-desc-compatibilidade
+{
+   font-weight: 600;
+   font-size: 13px;
+   position: relative;
+   left: 30px;
+   color: black;
+   border-bottom: rgba(0, 0, 0, 0.13) solid 1px;
+   width: 270px;
+}
+
+.txt-desc-anuncio{
+   font-size:16px;
+}
+
+.txt-preco-mes,
+.txt-anuncio,
+.txt-resolucao,
+.txt-aparelhos,
+.txt-baixar,
+.txt-combatibilidade,
+.txt-qtd-aparelhos,
+.txt-download,
+.txt-anuncios 
+{
+   margin-left: 30px;
+   width: 180px;
+}
+
+
+
